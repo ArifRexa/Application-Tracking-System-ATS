@@ -17,8 +17,7 @@ venv/
 .vscode/
 .env
 
-updated_app.py
-using_openai.py
+
 # Ignore compiled files
 *.class
 *.o
