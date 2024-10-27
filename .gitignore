@@ -1,0 +1,81 @@
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore node_modules for Node.js projects
+node_modules/
+
+# Ignore Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.ipynb_checkpoints/
+.idea/
+.venv/
+.vscode/
+.env
+
+updated_app.py
+using_openai.py
+# Ignore compiled files
+*.class
+*.o
+*.out
+*.so
+
+# Ignore logs
+*.log
+
+# Ignore IDE and editor settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignore temporary files and backups
+*.tmp
+*.bak
+*.old
+*.orig
+*.swp
+*~
+
+# Ignore macOS system files
+*.DS_Store
+
+# Ignore build directories
+/dist/
+/build/
+/target/
+
+# Ignore coverage reports
+coverage/
+*.lcov
+
+# Ignore dependency directories
+vendor/
+public/packs
+public/packs-test
+
+# Ignore environment-specific files
+.env.local
+.env.*.local
+.env.test.local
+.env.production.local
+
+# Ignore generated files
+*.min.js
+*.map
+*.lock
+
+# Ignore sensitive keys or configuration files
+.secret
+keys/
+certs/
+config.yml
+config.js
